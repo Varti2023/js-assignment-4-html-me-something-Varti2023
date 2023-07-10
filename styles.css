@@ -1,1 +1,14 @@
 /* Write your CSS here! */
+h1{
+    text-align:center;
+    color:  midnightblue
+}
+body{
+    background-color: azure;
+}
+p{
+    font-size: medium;
+}
+div{
+    width:100%
+}
