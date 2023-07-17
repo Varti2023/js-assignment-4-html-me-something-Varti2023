@@ -1,14 +1,33 @@
 /* Write your CSS here! */
-h1{
-    text-align:center;
-    color:  midnightblue
+.heading{
+  margin-left: 10px;
+  color:rgb(50, 61, 66);
 }
 body{
-    background-color: azure;
+    background-color: rgb(240, 242, 146);
 }
-p{
-    font-size: medium;
+#text{
+    margin-left: 10px;
+    text-align : 'center';
+    font-size: 'bold';
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-div{
-    width:100%
+div {
+    overflow: hidden;  
+  }
+.img{
+  background-color: rgb(236, 232, 113);
+  border: 5px ;
+  padding: 18px;
+}
+footer{
+  border : 1PX;
+ color:rgb(50, 61, 66);
+  font-family:'Courier New (monospace)';
+  bottom:0; 
+  left:0; 
+  width:100%;
+  height: 20px; 
+  background-color: rgb(153, 240, 244);
 }
